@@ -14,3 +14,22 @@
 # Example 3 
 # Input: 0 
 # Output: Zero
+
+
+
+# ========================================== 
+# Solution
+# ==========================================
+
+
+n = int(input("Enter an integer: ")) 
+
+if n > 0: 
+  if n % 2 == 0: 
+    print("Positive, Even") 
+  else: print("Positive, Odd") 
+elif n < 0: 
+  if n % 2 == 0: 
+    print("Negative, Even") 
+  else: print("Negative, Odd") 
+else: print("Zero")
