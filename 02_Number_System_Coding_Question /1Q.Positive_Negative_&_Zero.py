@@ -22,14 +22,17 @@
 # ==========================================
 
 
-n = int(input("Enter an integer: ")) 
+n = int(input())
 
-if n > 0: 
-  if n % 2 == 0: 
-    print("Positive, Even") 
-  else: print("Positive, Odd") 
-elif n < 0: 
-  if n % 2 == 0: 
-    print("Negative, Even") 
-  else: print("Negative, Odd") 
-else: print("Zero")
+if n > 0:
+    if n % 2 == 0:
+        print("Positive, Even")
+    else:
+        print("Positive, Odd")
+elif n < 0:
+    if n % 2 == 0:
+        print("Negative, Even")
+    else:
+        print("Negative, Odd")
+else:
+    print("Zero")
