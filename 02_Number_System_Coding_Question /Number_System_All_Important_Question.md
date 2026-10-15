@@ -1,201 +1,136 @@
-# 🐍 Python Number System – 20 Coding Questions
+# Python Number System – 33 Coding Questions
 
-## 🎯 Objective
+## Objective
 
-Practice Number System coding questions for BCA placement preparation using Python.
+Practice Number System coding questions using Python for BCA placement preparation.
 
-* **Level:** Beginner to Intermediate
-* **Language:** Python
-* **Purpose:** Placement Preparation
-* **Total Questions:** 20
+* Level: Beginner to Intermediate
+* Language: Python
+* Purpose: TCS BCA Ignite & Placement Preparation
+* Total Questions: 33
 
-## 📌 Instructions
+## Instructions
 
-1. Try to solve every question yourself before looking at a solution.
+1. Try to solve each question yourself before checking a solution.
 2. Write clean and readable Python code.
 3. Test your code with different inputs.
-4. Use loops, conditions and operators wherever appropriate.
+4. Use loops, conditions and operators where appropriate.
 5. Save each solution in a separate `.py` file.
 6. Mark each question as completed after testing your code.
 
 ---
 
-# ⭐ Priority 1 – Must Practice First
+## Priority 1 – Must Practice First
 
-## Q1. Check Positive, Negative, Odd, Even or Zero
+### Q1. Check Positive, Negative, Odd, Even or Zero
 
-**Problem Statement:**
-Write a Python program to determine whether an integer is positive, negative, or zero. If it is not zero, also determine whether it is odd or even.
+**Problem:** Determine whether an integer is positive, negative or zero. If it is not zero, also check whether it is odd or even.
 
-**Example:**
+**Example**
 
 ```text
 Input: 10
 Output: Positive, Even
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take an integer as input.
-* Check whether the number is positive, negative, or zero.
-* If it is not zero, check whether it is odd or even.
+### Q2. Reverse a Number
 
----
+**Problem:** Reverse the digits of a given integer.
 
-## Q2. Reverse a Number
-
-**Problem Statement:**
-Write a Python program to reverse the digits of a given integer.
-
-**Example:**
+**Example**
 
 ```text
 Input: 12345
 Output: 54321
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take an integer as input.
-* Extract the last digit using `%`.
-* Build the reversed number.
-* Remove the last digit using `//`.
+### Q3. Find the Sum of Digits
 
----
+**Problem:** Calculate the sum of all digits of a number.
 
-## Q3. Find the Sum of Digits of a Number
-
-**Problem Statement:**
-Write a Python program to calculate the sum of all digits of a given integer.
-
-**Example:**
+**Example**
 
 ```text
 Input: 1234
 Output: 10
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take an integer as input.
-* Extract each digit.
-* Add the digits to a sum variable.
-* Repeat until all digits have been processed.
+### Q4. Find All Divisors of a Number
 
----
+**Problem:** Print all positive divisors of a given positive integer.
 
-## Q4. Find All Divisors of a Number
-
-**Problem Statement:**
-Write a Python program to print all positive divisors of a given positive integer.
-
-**Example:**
+**Example**
 
 ```text
 Input: 12
 Output: 1 2 3 4 6 12
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a positive integer as input.
-* Use a loop from `1` to the given number.
-* Check which numbers divide it completely.
-* Print all divisors.
+### Q5. Check Whether a Number Is Prime
 
----
+**Problem:** Determine whether a number has exactly two positive divisors.
 
-## Q5. Check Whether a Number Is Prime
-
-**Problem Statement:**
-Write a Python program to determine whether a given integer is a prime number.
-
-**Example:**
+**Example**
 
 ```text
 Input: 7
 Output: Prime Number
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take an integer as input.
-* A prime number has exactly two positive divisors.
-* Check whether any number other than `1` and itself divides it.
-* Numbers less than `2` are not prime.
+### Q6. Check Whether a Year Is a Leap Year
 
----
+**Problem:** Determine whether a given year is a leap year.
 
-## Q6. Check Whether a Year Is a Leap Year
-
-**Problem Statement:**
-Write a Python program to determine whether a given year is a leap year.
-
-**Example:**
+**Example**
 
 ```text
 Input: 2024
 Output: Leap Year
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a year as input.
-* A year divisible by `400` is a leap year.
-* A year divisible by `100` but not by `400` is not a leap year.
-* Other years divisible by `4` are leap years.
+### Q7. Find the Factorial of a Number
 
----
+**Problem:** Calculate the factorial of a non-negative integer.
 
-## Q7. Find the Factorial of a Number
-
-**Problem Statement:**
-Write a Python program to calculate the factorial of a non-negative integer.
-
-**Example:**
+**Example**
 
 ```text
 Input: 5
 Output: 120
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a non-negative integer as input.
-* Initialize a variable to store the factorial.
-* Multiply the numbers from `1` to the given number.
-* Remember that `0! = 1`.
+### Q8. Print the Fibonacci Series
 
----
+**Problem:** Print the first N terms of the Fibonacci series.
 
-## Q8. Print the Fibonacci Series
-
-**Problem Statement:**
-Write a Python program to print the first `N` terms of the Fibonacci series.
-
-**Example:**
+**Example**
 
 ```text
 Input: 7
 Output: 0 1 1 2 3 5 8
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take the number of terms as input.
-* Start with `0` and `1`.
-* Print each term.
-* Calculate the next term by adding the previous two terms.
-* Continue until `N` terms have been printed.
+### Q9. Find the Greatest Common Divisor (GCD/HCF)
 
----
+**Problem:** Find the greatest common divisor of two positive integers.
 
-## Q9. Find the Greatest Common Divisor (GCD)
-
-**Problem Statement:**
-Write a Python program to find the greatest common divisor of two positive integers.
-
-**Example:**
+**Example**
 
 ```text
 Input:
@@ -205,298 +140,360 @@ Input:
 Output: 12
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take two positive integers as input.
-* Find the common divisors of both numbers.
-* Identify the greatest common divisor.
-* Try solving the problem using a loop.
+### Q10. Check Whether a Number Is Perfect
 
----
+**Problem:** Determine whether a number equals the sum of its proper divisors.
 
-## Q10. Check Whether a Number Is Perfect
-
-**Problem Statement:**
-Write a Python program to determine whether a positive integer is a perfect number.
-
-**Example:**
+**Example**
 
 ```text
 Input: 28
 Output: Perfect Number
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a positive integer as input.
-* Find its proper divisors, excluding the number itself.
-* Calculate their sum.
-* Compare the sum with the original number.
+### Q11. Check Whether a Number Is Armstrong
 
----
+**Problem:** Determine whether a number equals the sum of its digits raised to the power of the number of digits.
 
-## Q11. Check Whether a Number Is Armstrong
-
-**Problem Statement:**
-Write a Python program to determine whether a non-negative integer is an Armstrong number.
-
-**Example:**
+**Example**
 
 ```text
 Input: 153
 Output: Armstrong Number
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a non-negative integer as input.
-* Count the digits.
-* Raise each digit to the power of the total number of digits.
-* Calculate the sum.
-* Compare the sum with the original number.
+### Q12. Find the Least Common Multiple (LCM)
+
+**Problem:** Find the smallest positive number divisible by both given positive integers.
+
+**Example**
+
+```text
+Input:
+12
+18
+
+Output: 36
+```
+
+* [ ] Completed
 
 ---
 
-# ⭐ Priority 2 – Important Practice
+## Priority 2 – Important Practice
 
-## Q12. Check Whether a Number Is a Valid Perfect Square
+### Q13. Check Whether a Number Is a Perfect Square
 
-**Problem Statement:**
-Write a Python program to determine whether a given non-negative integer is a perfect square.
+**Problem:** Determine whether a non-negative integer is a perfect square.
 
-**Example:**
+**Example**
 
 ```text
 Input: 49
 Output: Perfect Square
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a non-negative integer as input.
-* Find its integer square root or check possible square values.
-* Determine whether an integer multiplied by itself equals the given number.
-* Handle `0` correctly.
+### Q14. Find the Sum of the First N Natural Numbers
 
----
+**Problem:** Calculate the sum of the first N natural numbers.
 
-## Q13. Replace All Zeros with Fives in an Integer
-
-**Problem Statement:**
-Write a Python program to replace every occurrence of the digit `0` with `5` in a given integer.
-
-**Example:**
-
-```text
-Input: 1020
-Output: 1525
-```
-
-**Instructions:**
-
-* Take an integer as input.
-* Identify every digit that is `0`.
-* Replace each zero with `5`.
-* Preserve the order of the other digits.
-
----
-
-## Q14. Find the Sum of the First N Natural Numbers
-
-**Problem Statement:**
-Write a Python program to calculate the sum of the first `N` natural numbers.
-
-**Example:**
+**Example**
 
 ```text
 Input: 5
 Output: 15
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a non-negative integer `N` as input.
-* Use a loop to add the natural numbers from `1` to `N`.
-* Display the final sum.
-* For `N = 0`, the sum should be `0`.
+### Q15. Check Whether a Number Is a Happy Number
 
----
+**Problem:** Repeatedly replace a number with the sum of the squares of its digits. Determine whether the process reaches 1.
 
-## Q15. Convert a Number to Hexadecimal
-
-**Problem Statement:**
-Write a Python program to convert a non-negative decimal integer into its hexadecimal representation.
-
-**Example:**
-
-```text
-Input: 26
-Output: 1A
-```
-
-**Instructions:**
-
-* Take a non-negative decimal integer as input.
-* Understand how hexadecimal uses digits `0–9` and letters `A–F`.
-* Convert the number to base 16.
-* Display the hexadecimal representation.
-
----
-
-## Q16. Check Whether a Number Is a Happy Number
-
-**Problem Statement:**
-Write a Python program to determine whether a positive integer is a happy number.
-
-**Example:**
+**Example**
 
 ```text
 Input: 19
 Output: Happy Number
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a positive integer as input.
-* Calculate the square of each digit.
-* Add the squares together.
-* Repeat the process with the resulting number.
-* If the process reaches `1`, it is a happy number.
-* If a number repeats without reaching `1`, it is not a happy number.
+### Q16. Count the Digits in a Number
 
----
+**Problem:** Count the number of digits in an integer.
 
-## Q17. Add Two Fractions
-
-**Problem Statement:**
-Write a Python program to add two fractions and express the result in its simplest form.
-
-**Example:**
+**Example**
 
 ```text
-Input:
-1 2
-1 3
-
-Output: 5/6
+Input: 12345
+Output: 5
 ```
 
-Here, the inputs represent `1/2` and `1/3`.
+* [ ] Completed
 
-**Instructions:**
+### Q17. Print Prime Numbers in a Range
 
-* Take the numerators and denominators of both fractions as input.
-* Calculate the sum of the fractions.
-* Find the greatest common divisor of the resulting numerator and denominator.
-* Simplify the final fraction.
-* Assume the denominators are non-zero.
+**Problem:** Print all prime numbers between two given limits.
 
----
-
-## Q18. Find the Roots of a Quadratic Equation
-
-**Problem Statement:**
-Write a Python program to calculate the roots of a quadratic equation of the form:
-
-`ax² + bx + c = 0`
-
-**Example:**
+**Example**
 
 ```text
 Input:
 1
--5
-6
+10
 
-Output:
-2
-3
+Output: 2 3 5 7
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take the coefficients `a`, `b` and `c` as input.
-* Calculate the discriminant using `b² - 4ac`.
-* Determine whether the roots are real and distinct, real and equal, or complex.
-* Assume `a` is not zero.
+### Q18. Check Whether a Number Is a Strong Number
 
----
+**Problem:** Determine whether a number equals the sum of the factorials of its digits.
 
-# ⭐ Priority 3 – Additional Practice
-
-## Q19. Find the Number of Ways to Arrange N Persons Around a Circular Table
-
-**Problem Statement:**
-Write a Python program to calculate the number of distinct arrangements of `N` different people around a circular table.
-
-**Example:**
+**Example**
 
 ```text
-Input: 4
-Output: 6
+Input: 145
+Output: Strong Number
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Take a positive integer `N` as input.
-* Understand circular permutations.
-* Use the formula `(N - 1)!` for `N` distinct people.
-* Calculate and display the result.
+### Q19. Find the Prime Factors of a Number
+
+**Problem:** Print the prime factors of a given positive integer.
+
+**Example**
+
+```text
+Input: 12
+Output: 2 2 3
+```
+
+* [ ] Completed
+
+### Q20. Find Armstrong Numbers in a Range
+
+**Problem:** Print all Armstrong numbers between two given limits.
+
+**Example**
+
+```text
+Input:
+1
+200
+
+Output: 1 2 3 4 5 6 7 8 9 153
+```
+
+* [ ] Completed
+
+### Q21. Find the Largest Digit
+
+**Problem:** Find the largest digit in a given integer.
+
+**Example**
+
+```text
+Input: 58321
+Output: 8
+```
+
+* [ ] Completed
+
+### Q22. Find the Smallest Digit
+
+**Problem:** Find the smallest digit in a given integer.
+
+**Example**
+
+```text
+Input: 58321
+Output: 1
+```
+
+* [ ] Completed
+
+### Q23. Find the Sum of Even Digits
+
+**Problem:** Calculate the sum of all even digits in a number.
+
+**Example**
+
+```text
+Input: 123456
+Output: 12
+```
+
+* [ ] Completed
+
+### Q24. Find the Sum of Odd Digits
+
+**Problem:** Calculate the sum of all odd digits in a number.
+
+**Example**
+
+```text
+Input: 123456
+Output: 9
+```
+
+* [ ] Completed
 
 ---
 
-## Q20. Generate the Fibonacci Series Using Recursion
+## Priority 3 – Additional Practice
 
-**Problem Statement:**
-Write a Python program to generate Fibonacci numbers using a recursive function.
+### Q25. Find the Product of Digits
 
-**Example:**
+**Problem:** Calculate the product of all digits in a number.
+
+**Example**
+
+```text
+Input: 234
+Output: 24
+```
+
+* [ ] Completed
+
+### Q26. Find the First and Last Digit
+
+**Problem:** Display the first and last digits of a number.
+
+**Example**
+
+```text
+Input: 12345
+Output:
+First Digit: 1
+Last Digit: 5
+```
+
+* [ ] Completed
+
+### Q27. Swap the First and Last Digit
+
+**Problem:** Exchange the first and last digits of an integer.
+
+**Example**
+
+```text
+Input: 12345
+Output: 52341
+```
+
+* [ ] Completed
+
+### Q28. Replace All Zeros with Fives
+
+**Problem:** Replace every zero digit with five.
+
+**Example**
+
+```text
+Input: 1020
+Output: 1525
+```
+
+* [ ] Completed
+
+### Q29. Find the Power of a Number
+
+**Problem:** Calculate the value of a number raised to a non-negative integer power.
+
+**Example**
+
+```text
+Input:
+2
+5
+
+Output: 32
+```
+
+* [ ] Completed
+
+### Q30. Add Two Fractions
+
+**Problem:** Add two fractions and express the result in its simplest form.
+
+**Example**
+
+```text
+Input:
+1/2
+1/3
+
+Output: 5/6
+```
+
+* [ ] Completed
+
+### Q31. Check Whether a Number Is a Palindrome
+
+**Problem:** Determine whether a number reads the same forward and backward.
+
+**Example**
+
+```text
+Input: 121
+Output: Palindrome Number
+```
+
+* [ ] Completed
+
+### Q32. Generate Fibonacci Series Using Recursion
+
+**Problem:** Print the first N Fibonacci terms using a recursive function.
+
+**Example**
 
 ```text
 Input: 7
 Output: 0 1 1 2 3 5 8
 ```
 
-**Instructions:**
+* [ ] Completed
 
-* Create a recursive function to calculate Fibonacci numbers.
-* Define the base cases.
-* Calculate each subsequent term using the previous two terms.
-* Print the first `N` terms.
-* Be aware that the basic recursive method becomes slow for large values of `N`.
+### Q33. Check Whether a Number Is a Disarium Number
 
----
+**Problem:** Determine whether the sum of each digit raised to its position equals the original number.
 
-# ✅ Progress Tracker
+**Example**
 
-## ✅ Progress Tracker
+```text
+Input: 135
+Output: Disarium Number
+```
 
-* [ ] Q1 – Positive, Negative, Odd, Even or Zero
-* [ ] Q2 – Reverse a Number
-* [ ] Q3 – Sum of Digits
-* [ ] Q4 – All Divisors
-* [ ] Q5 – Prime Number
-* [ ] Q6 – Leap Year
-* [ ] Q7 – Factorial
-* [ ] Q8 – Fibonacci Series
-* [ ] Q9 – GCD
-* [ ] Q10 – Perfect Number
-* [ ] Q11 – Armstrong Number
-* [ ] Q12 – Valid Perfect Square
-* [ ] Q13 – Replace Zeros with Fives
-* [ ] Q14 – Sum of First N Natural Numbers
-* [ ] Q15 – Decimal to Hexadecimal
-* [ ] Q16 – Happy Number
-* [ ] Q17 – Add Two Fractions
-* [ ] Q18 – Roots of a Quadratic Equation
-* [ ] Q19 – Circular Permutations
-* [ ] Q20 – Fibonacci Using Recursion
-
+* [ ] Completed
 
 ---
 
-## 🚀 My Practice Rule
+## Final Progress Tracker
+
+* [ ] Priority 1 completed
+* [ ] Priority 2 completed
+* [ ] Priority 3 completed
+* [ ] All 33 questions tested
+* [ ] Solutions uploaded to GitHub
+
+## My Practice Rule
 
 **Understand → Try Yourself → Test Your Code → Review Mistakes → Upload to GitHub**
 
-*Consistency is the key to improving coding skills and preparing for placements.*
+Consistency is the key to improving coding skills and preparing for placements.
+
+**Note:** This is a curated practice list, not an official TCS Ignite question paper. Priorities indicate a suggested learning order, not guaranteed exam questions.
+
