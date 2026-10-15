@@ -34,3 +34,18 @@ elif num < 0:
 
 else:
     print("Zero")
+
+
+
+# ==========================================
+# Output
+# ==========================================
+
+# Input: 10
+# Output: Positive, Even
+
+# Input: -7
+# Output: Negative, Odd
+
+# Input: 0
+# Output: Zero
